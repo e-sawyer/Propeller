@@ -1,0 +1,476 @@
+/*
+	Propeller Communications - Build Asessment
+	By: Eric Sawyer
+*/
+/* ======= Body style ========  */
+
+.body {
+    color: #FFF;
+    font-size: 87.5%;
+    /* Base font size: 14px */
+    
+    font-family: 'Montserrat', 'Cambridge Serial', sans-serif;
+    line-height: 1.429;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.body {
+    margin: 0 auto;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    background-color: #000;
+    background-image: url("images/top-background.jpg");
+}
+.body h1 {
+    font-size: 2.25em;
+}
+
+.mainHeader img {
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: auto;
+    height: auto;
+}
+
+/* ===== Main Navigation ===== */
+
+.mainHeader nav {
+    background: none;
+    font-size: 1.143em;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+}
+.mainHeader nav ul {
+    list-style: none;
+    margin: 0px auto;
+    color: #fff;
+    height: 30px;
+    padding: 5px 0 5px 0;
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex;
+}
+.mainHeader nav ul li {
+    text-transform: uppercase !important;
+    text-align: center;
+    display: inline-block;
+    padding: 0 2em 0 2em;
+    max-width: 100%;
+}
+.mainHeader nav a:link,
+.mainHeader nav a:visited,
+.mainHeader nav a:hover,
+.mainHeader nav a:active,
+.mainHeader nav .active a:link,
+.mainHeader nav .active a:visited {
+    color: #fff;
+    text-shadow: none !important;
+    text-decoration: none;
+}
+.mainHeader nav li a {} 
+
+.social {
+margin: 5% auto 5% auto;
+text-align: center;
+
+
+}
+.social i {
+    width: 40px;
+    height: 40px;
+    border: white 2px solid;
+    text-align: center;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    line-height: 42px;
+    font-size: 25px;
+margin: 0 5px 0 5px;
+}
+.social a {
+    color: #fff;
+}
+i {
+    margin: 0;
+}
+/* ======= Content Area 1 ====== */
+
+.black {
+    background-color: black;
+    background-size: 1920px;
+}
+.content1 {
+    background-color: white;
+    width: 100%;
+    color: black;
+    padding: 3% 0 5% 0;
+    text-align: center;
+}
+.welcome-text {
+    font-style: italic;
+    font-family: Cambridge Serial, sans-serif;
+    padding: 0 20% 0 20%;
+    text-align: center;
+    margin-bottom: 0;
+}
+.ctagroup {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.ctagroup a {
+    color: white;
+    text-decoration: none;
+}
+.block {
+    width: 100%;
+    height: 100%;
+}
+.cta {
+    width: 25%;
+    min-width: 200px;
+    height: 300px;
+    color: white;
+}
+.cta1 {
+    background-image: url('images/chair-table.jpeg');
+    background-size: 100%;
+    background-position: center;
+}
+.cta2 {
+    background-image: url('images/fries.jpg');
+    background-size: 200%;
+    background-position: center;
+}
+.cta3 {
+    background-image: url('images/Glass-of-Rose-Wine.jpeg');
+    background-size: 150%;
+    background-position: left;
+}
+.cta4 {
+    background-image: url('images/Coffee-time.jpeg');
+    background-size: 200%;
+    background-position: center;
+}
+.cta1:hover,
+.cta2:hover,
+.cta3:hover,
+.cta4:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+.ctagroup a {
+    visibility: hidden;
+}
+.ctagroup a:hover {
+    visibility: visible;
+}
+.name {
+    margin-top: 12.5%;
+}
+.arrows {
+    width: 60px;
+    padding: 10px;
+}
+.clickhere {
+    font-style: italic;
+    font-family: 'Cambridge Serial', sans-serif;
+}
+.slider {
+    max-height: 400px;
+    background-image: url(images/carosel1.jpeg);
+    background-size: contain;
+    background-size: 130%;
+    background-position: right;
+    margin-top: -5%;
+    padding-top: 55%;
+}
+/* ======= Content Area 2 ====== */
+
+.content2 {
+    background-image: url('images/bottom-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sub-footer {
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px
+}
+.twitter-feed {
+    width: 33%;
+    padding: 0 2% 0 2%;
+}
+.instagram-feed {
+    width: 33%;
+    padding: 0 2% 0 2%;
+}
+.sign-up {
+    width: 33%;
+    padding: 0 2% 0 2%;
+}
+h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px white solid;
+}
+.sub-footer i {
+    font-family: Cambridge Serial, sans-serif;
+    font-size: 1.1em;
+}
+.sub-footer .button {
+    padding: 5px;
+    border: 1px white solid;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    text-align: center;
+}
+.twitter-timeline p {
+    font-family: 'Cambridge Serial', sans-serif;
+    font-style: italic;
+    margin-top: 7.5%;
+    margin-bottom: -7.5%;
+}
+.twitter-time {
+    text-align: right;
+}
+.instagram-images {
+    display: inline-flex;
+    margin-top: 25px;
+    padding: 0;
+    width: 100%;
+}
+.instagram-orange {
+    background-image: url('images/orange.jpg');
+    height: 150px;
+    background-position: 60% 80%;
+    background-size: 250%;
+    width: 50%;
+    min-width: 120px;
+}
+.instagram-salad {
+    background-image: url('images/salad.jpg');
+    height: 150px;
+    background-size: 150%;
+    width: 50%;
+    min-width: 120px;
+    background-position: 40% 0%
+}
+.signup-form {
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+.form-name,
+.form-submit,
+.form-email,
+.form-bday {
+    background-color: transparent;
+    width: 70%;
+    border: 1px white solid;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Cambridge Serial', sans-serif;
+    font-style: italic;
+    height: 30px;
+    font-size: 0.7em;
+}
+.form-submit {
+    height: 30px;
+    margin-top: 20px;
+    width: 50%
+}
+/* ========= Footer ========== */
+
+.mainFooter {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.seperator {
+    border-top: 4px double white;
+    height: 50px;
+    margin: 0 5% 0 5%
+}
+.links {
+    padding: 0 0 30px 0;
+    margin-top: -20px;
+    margin-bottom: 0px
+}
+.infinity {
+    width: 40px;
+    height: auto;
+}
+/* ====== Media Queries ====== */
+
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+    .slider {
+        background-size: 150%;
+        margin-top: -5%;
+        max-height: 300px;
+    }
+}
+@media only screen and (min-width: 150px) and (max-width: 1139px) {
+    .body {
+        color: #FFF;
+        font-size: 100%;
+        /* Base font size: 14px */
+        
+        font-family: 'Montserrat', 'CambridgeSerial', sans-serif;
+        line-height: 1.429;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    .body {
+        margin: 0 auto;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 175%;
+        background-position: center top;
+    }
+ 
+.mainHeader nav {
+    width: 100%;
+    background: none;
+    font-size: 1.143em;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    min-height: 50px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.mainHeader nav ul {
+    width: 100%;
+    list-style: none;
+    color: #fff;
+    height: 30px;
+    padding: 5px auto 5px auto;
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    height: auto;
+    }
+
+    .mainHeader nav ul li{width: 100%;
+    text-align: center !important;
+    margin: 0 auto;
+    width: 50%;}
+
+    .social {
+ text-align: center !important;
+padding: 0 5% 0 5%;
+
+}
+.social i {
+    width: 40px;
+    height: 40px;
+    border: white 2px solid;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    line-height: 42px;
+    font-size: 25px;
+    margin: 0 5px 0 5px;
+}
+.social a {
+    color: #fff;
+}
+    
+    .welcome-text {
+        font-style: italic;
+        font-family: Cambridge Serial, sans-serif;
+        padding: 0 20% 0 20%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .ctagroup {
+        width: 100%;
+        min-width: 1023px;
+        height: auto;
+        display: inline;
+        margin-bottom: 0;
+    }
+    .cta {
+        width: auto;
+        min-width: 200px;
+        height: auto;
+        color: white;
+        min-height: 200px;
+    }
+    .block {
+        width: 100%;
+        height: 200px;
+    }
+    .slider {
+        padding: 0;
+        max-height: 350px;
+        background-image: url('images/carosel1.jpeg');
+        background-size: contain;
+        background-size: 120%;
+        background-position: right;
+        margin-top: -5%;
+        padding-top: 50%;
+    }
+    .name {
+        margin-top: 0;
+    }
+    .sub-footer {
+        height: 500px;
+        width: 80%;
+        display: inline;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .instagram-orange {
+    height: 300px;
+}
+.instagram-salad {
+    height: 300px;
+}
+    .twitter-feed {
+        width: 80%;
+        padding: 0 2% 10% 2%;
+        vertical-align: middle;
+        margin: 0 auto;
+    }
+    .instagram-feed {
+        width: 80%;
+        padding: 0 2% 10% 2%;
+        margin: 0 auto;
+    }
+    .sign-up {
+        width: 80%;
+        padding: 0 2% 10% 2%;
+        margin: 0 auto;
+    }
+    .seperator {
+        margin: 5% 10% 0 10%
+    }
+    .links {
+        padding: 0 5% 30px 5%;
+        margin-top: -20px
+    }
+}
+/* Eric Sawyer */
