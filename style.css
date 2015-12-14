@@ -314,6 +314,9 @@ h3 {
     margin-top: -20px;
     margin-bottom: 0px
 }
+.links i{padding:5px}
+a{color: white;}
+
 .infinity {
     width: 40px;
     height: auto;
